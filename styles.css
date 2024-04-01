@@ -1,0 +1,69 @@
+body {
+    background-color: antiquewhite;
+    margin: 50px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+}
+
+section {
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 1rem;
+    text-align: center;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+    margin: 0 40px;
+}
+
+.timeline-item {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 20% 80%;
+}
+
+.time-period {
+    font-weight: bold;
+    min-width: 200px;
+}
+
+.skills-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+}
+
+.skills-list li::marker {
+    content: '';
+}
+
+.skills-list li {
+    color: whitesmoke;
+    background-color: rgb(43, 31, 116);
+    border: 2px solid rgb(33, 64, 163);
+    border-radius: 20px;
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
